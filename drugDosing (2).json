@@ -1,0 +1,582 @@
+[
+  {
+    "generic": "warfarin",
+    "brands": [
+      "Coumadin",
+      "Jantoven"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 5,
+      "units": "mg/day (typical initial; individualize to INR)",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "No initial dose adjustment; monitor INR closely due to potential increased sensitivity."
+        },
+        "B": {
+          "multiplier": 1.0,
+          "note": "No formal adjustment; start conservatively and increase INR monitoring frequency."
+        },
+        "C": {
+          "multiplier": 1.0,
+          "note": "Use cautiously; start low and titrate to INR with very close monitoring."
+        }
+      }
+    },
+    "citation": "FDA label; clinical guidance (monitor INR)",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "apixaban",
+    "brands": [
+      "Eliquis"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 5,
+      "units": "mg BID (AFib template; adjust per indication)",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "No adjustment in mild impairment."
+        },
+        "B": {
+          "multiplier": 1.0,
+          "note": "Use with caution; limited data in moderate impairment."
+        },
+        "C": {
+          "multiplier": 0.0,
+          "note": "Avoid in severe hepatic impairment (Child-Pugh C)."
+        }
+      }
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "rivaroxaban",
+    "brands": [
+      "Xarelto"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 20,
+      "units": "mg/day (AFib template; adjust per indication)",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "No adjustment in mild impairment."
+        },
+        "B": {
+          "multiplier": 0.0,
+          "note": "Avoid in moderate hepatic impairment (Child-Pugh B) with coagulopathy/clinically relevant bleeding risk."
+        },
+        "C": {
+          "multiplier": 0.0,
+          "note": "Avoid in severe hepatic impairment (Child-Pugh C)."
+        }
+      }
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "edoxaban",
+    "brands": [
+      "Savaysa"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 60,
+      "units": "mg/day (AFib template; adjust per indication)",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "No adjustment in mild impairment."
+        },
+        "B": {
+          "multiplier": 1.0,
+          "note": "Use with caution; limited data in moderate impairment."
+        },
+        "C": {
+          "multiplier": 0.0,
+          "note": "Avoid in severe hepatic impairment (Child-Pugh C)."
+        }
+      }
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "dabigatran",
+    "brands": [
+      "Pradaxa"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 150,
+      "units": "mg BID (AFib template; adjust per indication)",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "No adjustment in mild impairment."
+        },
+        "B": {
+          "multiplier": 1.0,
+          "note": "Use with caution; hepatic disease may increase bleeding risk."
+        },
+        "C": {
+          "multiplier": 0.0,
+          "note": "Avoid in severe hepatic impairment (Child-Pugh C) or active liver disease with coagulopathy."
+        }
+      }
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "amiodarone",
+    "brands": [
+      "Pacerone",
+      "Cordarone"
+    ],
+    "routes": [
+      "oral",
+      "IV"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 200,
+      "units": "mg/day (maintenance; titrate clinically)",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "No routine adjustment; monitor LFTs."
+        },
+        "B": {
+          "multiplier": 0.5,
+          "note": "Consider dose reduction; monitor for toxicity."
+        },
+        "C": {
+          "multiplier": 0.5,
+          "note": "Use lowest effective dose with close monitoring; consider alternatives."
+        }
+      }
+    },
+    "citation": "FDA label / clinical references",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "metronidazole",
+    "brands": [
+      "Flagyl"
+    ],
+    "routes": [
+      "oral",
+      "IV"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 500,
+      "units": "mg q8\u201312h (template; per indication)",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "No adjustment in mild impairment."
+        },
+        "B": {
+          "multiplier": 1.0,
+          "note": "No adjustment; monitor if prolonged therapy."
+        },
+        "C": {
+          "multiplier": 0.5,
+          "note": "Reduce total daily dose by ~50% in severe impairment."
+        }
+      }
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "voriconazole",
+    "brands": [
+      "Vfend"
+    ],
+    "routes": [
+      "oral",
+      "IV"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 200,
+      "units": "mg BID (maintenance; adults)",
+      "rules": {
+        "A": {
+          "multiplier": 0.5,
+          "note": "Reduce maintenance dose by ~50% in mild impairment."
+        },
+        "B": {
+          "multiplier": 0.5,
+          "note": "Reduce maintenance dose by ~50% in moderate impairment; monitor levels if available."
+        },
+        "C": {
+          "multiplier": 0.5,
+          "note": "Use only if benefit outweighs risk; consider 50% reduction and monitor closely."
+        }
+      }
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "itraconazole",
+    "brands": [
+      "Sporanox"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "advisory",
+      "base_dose": 200,
+      "units": "mg/day (template)",
+      "advisory": "Use with caution in hepatic impairment; monitor LFTs; avoid if active liver disease.",
+      "rules": {}
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "ketoconazole (oral)",
+    "brands": [
+      "Nizoral"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "advisory",
+      "base_dose": 0,
+      "units": "n/a",
+      "advisory": "Oral ketoconazole carries risk of severe hepatotoxicity; generally avoid use.",
+      "rules": {}
+    },
+    "citation": "FDA label / safety communications",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "rifampin",
+    "brands": [
+      "Rifadin"
+    ],
+    "routes": [
+      "oral",
+      "IV"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 600,
+      "units": "mg/day (adults)",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "No adjustment; monitor LFTs."
+        },
+        "B": {
+          "multiplier": 1.0,
+          "note": "Use with caution; monitor LFTs."
+        },
+        "C": {
+          "multiplier": 0.0,
+          "note": "Avoid in severe hepatic impairment if possible."
+        }
+      }
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "acetaminophen (paracetamol)",
+    "brands": [
+      "Tylenol"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 4000,
+      "units": "mg/day (OTC adult max)",
+      "rules": {
+        "A": {
+          "multiplier": 0.5,
+          "note": "Limit to \u22642 g/day in chronic liver disease unless otherwise directed."
+        },
+        "B": {
+          "multiplier": 0.5,
+          "note": "Limit to \u22642 g/day."
+        },
+        "C": {
+          "multiplier": 0.5,
+          "note": "Limit to \u22642 g/day; avoid in acute hepatic failure."
+        }
+      }
+    },
+    "citation": "Clinical guidance; many institutions advise \u22642 g/day in CLD",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "atorvastatin",
+    "brands": [
+      "Lipitor"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "advisory",
+      "base_dose": 10,
+      "units": "mg/day (starting)",
+      "advisory": "Avoid in active liver disease; in stable chronic disease use lowest effective dose; monitor LFTs.",
+      "rules": {}
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "simvastatin",
+    "brands": [
+      "Zocor"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "advisory",
+      "base_dose": 10,
+      "units": "mg/day (starting)",
+      "advisory": "Use with caution; avoid in active liver disease; monitor LFTs.",
+      "rules": {}
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "valproic acid / divalproex",
+    "brands": [
+      "Depakote"
+    ],
+    "routes": [
+      "oral",
+      "IV"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 250,
+      "units": "mg q8\u201312h (template; titrate to levels)",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "Use with caution; monitor LFTs and ammonia."
+        },
+        "B": {
+          "multiplier": 0.0,
+          "note": "Avoid in moderate hepatic impairment when possible."
+        },
+        "C": {
+          "multiplier": 0.0,
+          "note": "Contraindicated / avoid in severe hepatic impairment."
+        }
+      }
+    },
+    "citation": "FDA label / boxed warning for hepatotoxicity",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "phenytoin",
+    "brands": [
+      "Dilantin"
+    ],
+    "routes": [
+      "oral",
+      "IV"
+    ],
+    "dosing_algorithm": {
+      "method": "advisory",
+      "base_dose": 300,
+      "units": "mg/day (typical maintenance; adjust to levels)",
+      "advisory": "Altered protein binding in hypoalbuminemia; dose by corrected level (Sheiner\u2013Tozer) and clinical response.",
+      "rules": {}
+    },
+    "citation": "Clinical guidance",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "duloxetine",
+    "brands": [
+      "Cymbalta"
+    ],
+    "routes": [
+      "oral"
+    ],
+    "dosing_algorithm": {
+      "method": "child_pugh",
+      "base_dose": 60,
+      "units": "mg/day",
+      "rules": {
+        "A": {
+          "multiplier": 1.0,
+          "note": "Use with caution; consider alternatives if hepatic risk."
+        },
+        "B": {
+          "multiplier": 0.0,
+          "note": "Avoid in chronic hepatic impairment/cirrhosis."
+        },
+        "C": {
+          "multiplier": 0.0,
+          "note": "Avoid."
+        }
+      }
+    },
+    "citation": "FDA label / contraindicated in hepatic impairment",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "naltrexone",
+    "brands": [
+      "Revia",
+      "Vivitrol"
+    ],
+    "routes": [
+      "oral",
+      "IM"
+    ],
+    "dosing_algorithm": {
+      "method": "advisory",
+      "base_dose": 50,
+      "units": "mg/day (oral)",
+      "advisory": "Avoid in acute hepatitis or liver failure; use caution in hepatic impairment; monitor LFTs.",
+      "rules": {}
+    },
+    "citation": "FDA label / DailyMed",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "doxorubicin",
+    "brands": [
+      "Adriamycin"
+    ],
+    "routes": [
+      "IV"
+    ],
+    "dosing_algorithm": {
+      "method": "bilirubin",
+      "base_dose": 60,
+      "units": "mg/m\u00b2 (example regimen; follow protocol)",
+      "cutoffs": [
+        {
+          "max": 1.2,
+          "multiplier": 1.0,
+          "note": "Full dose when bilirubin < 1.2 mg/dL."
+        },
+        {
+          "min": 1.2,
+          "max": 3.0,
+          "multiplier": 0.75,
+          "note": "Reduce by ~25% when bilirubin 1.2\u20133 mg/dL."
+        },
+        {
+          "min": 3.0,
+          "multiplier": 0.5,
+          "note": "Reduce by ~50% when bilirubin > 3 mg/dL."
+        }
+      ]
+    },
+    "citation": "Common oncology references; verify per protocol/label",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "irinotecan",
+    "brands": [
+      "Camptosar"
+    ],
+    "routes": [
+      "IV"
+    ],
+    "dosing_algorithm": {
+      "method": "bilirubin",
+      "base_dose": 125,
+      "units": "mg/m\u00b2 weekly regimen (example)",
+      "cutoffs": [
+        {
+          "max": 1.5,
+          "multiplier": 1.0,
+          "note": "Full dose when bilirubin \u2264 1.5\u00d7 ULN."
+        },
+        {
+          "min": 1.5,
+          "max": 2.0,
+          "multiplier": 0.8,
+          "note": "Reduce by ~20% when bilirubin 1.5\u20132\u00d7 ULN."
+        },
+        {
+          "min": 2.0,
+          "multiplier": 0.0,
+          "note": "Avoid when bilirubin > 2\u00d7 ULN (per many protocols)."
+        }
+      ]
+    },
+    "citation": "Oncology protocols/label; verify locally",
+    "accessed": "2025-08-14"
+  },
+  {
+    "generic": "paclitaxel",
+    "brands": [
+      "Taxol"
+    ],
+    "routes": [
+      "IV"
+    ],
+    "dosing_algorithm": {
+      "method": "bilirubin",
+      "base_dose": 175,
+      "units": "mg/m\u00b2 q3w (example)",
+      "cutoffs": [
+        {
+          "max": 1.25,
+          "multiplier": 1.0,
+          "note": "Full dose when bilirubin \u2264 1.25\u00d7 ULN."
+        },
+        {
+          "min": 1.26,
+          "max": 2.0,
+          "multiplier": 0.75,
+          "note": "Consider dose reduction when bilirubin 1.26\u20132\u00d7 ULN."
+        },
+        {
+          "min": 2.01,
+          "multiplier": 0.5,
+          "note": "Consider further reduction when bilirubin > 2\u00d7 ULN."
+        }
+      ]
+    },
+    "citation": "Oncology protocols/label; verify locally",
+    "accessed": "2025-08-14"
+  }
+]
